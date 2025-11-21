@@ -1,0 +1,133 @@
+#navbar-left,
+a {
+  padding: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+#img-navbar {
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  padding: 6px;
+}
+#navbar-right #sign-in {
+  background-color: #0b57d0;
+  color: white;
+  border-radius: 20px;
+  padding: 13px;
+}
+
+#google {
+  display: flex;
+  padding: 80px 0 30px 0;
+  align-items: end;
+  justify-content: center;
+}
+
+#search-bar {
+  display: flex;
+  z-index: 3;
+  position: relative;
+  min-height: 50px;
+  background: #fff;
+  border: 1px solid #dadce0;
+  box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08);
+  border-radius: 26px;
+  width: 40vw;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+center {
+  padding: 30px 0 225px 0;
+}
+
+#search-submit,
+#lucky-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 8px;
+  color: black;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+#location {
+  padding: 15px 30px;
+  border-bottom: 1px solid var(--gS5jXb);
+  font-size: 15px;
+  color: var(--YLNNHc);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#help {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(204, 206, 207);
+}
+
+#image {
+  color: #4285f4;
+  font: 16px / 16px Arial, sans-serif;
+  position: absolute;
+  left: 848px;
+}
+
+#heading{
+    color: red;
+    font-size: 25px;
+    padding: 20px 100px;
+}
+
+#advance-form{
+    padding: 30px;
+    margin: 30px;
+
+}
+
+.form-group{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.form-group label{
+    padding-right: 20px;    
+}
+
+.adv-btn{
+    background-color: #4d90fe;
+    color: white;
+    border: 1px solid #3079ed;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+}
